@@ -5,19 +5,35 @@
 		[
 			[
 				"mar",
-				"margin-left"
+				"margin"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"li",
+				"list-style-type"
 			],
 			[
 				"padd",
-				"padding-left"
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bor",
+				"border"
 			],
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"back",
-				"background-position"
 			],
 			[
 				"padding",
@@ -41,10 +57,6 @@
 			],
 			[
 				"bo",
-				"border"
-			],
-			[
-				"bor",
 				"border"
 			],
 			[
@@ -104,10 +116,6 @@
 				"new_albums"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"fu",
 				"fullheight"
 			],
@@ -146,10 +154,6 @@
 			[
 				"inlie",
 				"inline-block"
-			],
-			[
-				"li",
-				"line-height"
 			],
 			[
 				"me",
@@ -463,13 +467,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1733,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/style.less",
+			"settings":
+			{
+				"buffer_size": 2173,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 47.0,
+		"height": 67.0,
 		"selected_items":
 		[
+			[
+				"tidy",
+				"Tidy HTML"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -575,7 +599,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -592,6 +616,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/smartcity/untitled folder/style.less",
 		"/Users/Yecol/Workspace/git-repo/levinsu/inc/index.tpl",
 		"/Users/Yecol/Workspace/git-repo/levinsu/inc/single.tpl",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
@@ -771,13 +796,73 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1267,
+								1267
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 71.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 2173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								681,
+								676
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 224.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -809,7 +894,7 @@
 		"cols":
 		[
 			0.0,
-			0.957698815567,
+			0.383936125212,
 			1.0
 		],
 		"rows":

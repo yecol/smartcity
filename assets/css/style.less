@@ -5,10 +5,11 @@
 body{
 	font-family: "Microsoft YaHei";
 	font-size: 14px;
+	line-height: 14px;
 	background: url("../images/bg.png") repeat;
 }
 
-.container{
+.container-1k{
 	width: 1000px;
 	margin: 0 auto 0 auto;
 }
@@ -47,7 +48,7 @@ body{
     .animate-cloud-key 
     to{background-position:0 100%}
 
-	.container{
+	.container-1k{
 		height: 120px;
 		background:url("../images/title.png") 20px center no-repeat;
 	}
@@ -65,7 +66,10 @@ body{
 		height: 40px;
 		background-color: @primary-color;
 		li{
-			margin: 12px 15px;
+			padding: 12px 15px;
+			&.active{
+				background-color: #09f;
+			}
 		}
 		a{
 			line-height: 16px;
@@ -75,14 +79,31 @@ body{
 		}
 	}
 	#nav-2{
+		position: relative;
 		height: 30px;
 		background-color: white;
 		border-bottom: @edge-color solid 1px;
+		ul.menu-2{
+			position: absolute;
+			left: -999px;
+		}
+		li{
+			padding: 7px 15px 7px 0px;
+			a{
+				color: #666;
+				text-decoration: none;
+			}
+			&.active{
+				a{
+					color: black;
+				}
+			}
+		}
 	}
 }
 
 #main{
-	.container{
+	.container-1k{
 		height: 400px;
 		margin: 30px auto 30px auto;
 		background-color: white;
@@ -95,12 +116,30 @@ body{
 	padding-bottom: 15px;
 	#footer-main{
 		height: 250px;
-		background: #808080 url("../images/footer-bg.png") center bottom no-repeat; 
+		background: #808080 url("../images/footer-bg.png") center bottom no-repeat;
+		h3{
+			font-size: 18px;
+			color: #36c;
+			font-weight: bold;
+			line-height: 18px;
+			margin: 30px 0 20px 0;
+		}
+		ul{
+			list-style: none;
+			li{
+				a{
+					display: block;
+					color: #ccc;
+					text-decoration: none;
+					margin: 0 0 8px 0;
+				}
+			}
+		}
 	}
 	#footer-siteinfo{
 		height: 60px;
 		background-color: #333333;
-		.container{
+		.container-1k{
 			font-size: 12px;
 			color: #999;
 			text-align: center;
