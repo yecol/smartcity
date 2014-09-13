@@ -8,6 +8,10 @@
 				"margin"
 			],
 			[
+				"font",
+				"font-weight"
+			],
+			[
 				"text",
 				"text-decoration"
 			],
@@ -30,10 +34,6 @@
 			[
 				"bor",
 				"border"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"padding",
@@ -471,7 +471,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1733,
+				"buffer_size": 3523,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/common.js",
+			"settings":
+			{
+				"buffer_size": 524,
 				"line_ending": "Unix"
 			}
 		},
@@ -479,7 +487,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 2173,
+				"buffer_size": 2738,
 				"line_ending": "Unix"
 			}
 		}
@@ -804,26 +812,57 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1733,
+						"buffer_size": 3523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1267,
-								1267
+								2729,
+								2729
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 71.0,
+						"translation.y": 879.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/common.js",
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -835,19 +874,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 2173,
+						"buffer_size": 2738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								681,
-								676
+								2342,
+								2342
 							]
 						],
 						"settings":
@@ -858,7 +897,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 224.0,
+						"translation.y": 1680.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -894,7 +933,7 @@
 		"cols":
 		[
 			0.0,
-			0.383936125212,
+			0.553980277073,
 			1.0
 		],
 		"rows":
