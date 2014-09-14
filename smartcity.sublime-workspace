@@ -5,15 +5,51 @@
 		[
 			[
 				"mar",
-				"margin"
+				"margin-top"
 			],
 			[
 				"font",
-				"font-weight"
+				"font-size"
+			],
+			[
+				"padding",
+				"padding"
 			],
 			[
 				"text",
-				"text-decoration"
+				"text-indent"
+			],
+			[
+				"i",
+				"inside"
+			],
+			[
+				"list",
+				"list-style-position"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"frame",
+				"frame-padding"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
 			],
 			[
 				"inline",
@@ -22,22 +58,6 @@
 			[
 				"li",
 				"list-style-type"
-			],
-			[
-				"padd",
-				"padding-top"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"bor",
-				"border"
-			],
-			[
-				"padding",
-				"padding"
 			],
 			[
 				"ba",
@@ -54,10 +74,6 @@
 			[
 				"max",
 				"max-height"
-			],
-			[
-				"bo",
-				"border"
 			],
 			[
 				"tex",
@@ -146,10 +162,6 @@
 			[
 				"fot",
 				"font-size"
-			],
-			[
-				"list",
-				"list-style"
 			],
 			[
 				"inlie",
@@ -471,7 +483,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3523,
+				"buffer_size": 6990,
 				"line_ending": "Unix"
 			}
 		},
@@ -479,7 +491,7 @@
 			"file": "assets/js/common.js",
 			"settings":
 			{
-				"buffer_size": 524,
+				"buffer_size": 895,
 				"line_ending": "Unix"
 			}
 		},
@@ -487,7 +499,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 2738,
+				"buffer_size": 4624,
 				"line_ending": "Unix"
 			}
 		}
@@ -812,15 +824,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3523,
+						"buffer_size": 6990,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2729,
-								2729
+								5109,
+								5109
 							]
 						],
 						"settings":
@@ -833,7 +845,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 879.0,
+						"translation.y": 1894.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -843,20 +855,22 @@
 					"file": "assets/js/common.js",
 					"settings":
 					{
-						"buffer_size": 524,
+						"buffer_size": 895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								399,
-								399
+								227,
+								227
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -878,15 +892,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 2738,
+						"buffer_size": 4624,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2342,
-								2342
+								776,
+								776
 							]
 						],
 						"settings":
@@ -897,7 +911,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1680.0,
+						"translation.y": 518.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -933,7 +947,7 @@
 		"cols":
 		[
 			0.0,
-			0.553980277073,
+			0.543819596881,
 			1.0
 		],
 		"rows":
@@ -980,6 +994,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 258.0,
+	"side_bar_width": 108.0,
 	"status_bar_visible": true
 }
