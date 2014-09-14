@@ -44,6 +44,7 @@ p{
 	padding: @frame-padding;
 	background-color: white;
 	float: left;
+	width: 100%;
 	.frame-header{
 		position: relative;
 		width: 100%;
@@ -124,6 +125,34 @@ p{
 .col-2-3{
 	width: (@full-width - @width-1-3 - @frame-margin * 4);
 }
+
+.sidebar{
+	right: 10px;
+	top: 0;
+	position: absolute;
+}
+
+.bread{
+	padding: 0 10px;
+	ol{
+		li{
+			padding:10px;
+			display: inline-block;
+			padding-right: 30px;
+			font-size: 12px;
+			background: url("../images/arrow.png") right 0 no-repeat;
+			h3{
+				border-left: 6px solid @primary-color;
+				padding-left: 5px;
+				line-height: 1.0;
+				font-size: 14px;
+				color: @primary-color;
+			}
+		}
+	}
+}
+
+
 
 
 .ad{
@@ -251,6 +280,7 @@ p{
 
 #main{
 	.container-1k{
+		position: relative;
 		margin: 20px auto 30px auto;
 	}
 }
@@ -556,6 +586,16 @@ p{
 				color: #999;
 			}
 		}
+	}
+	&.page-items{
+		padding: 20px;
+		ul{
+			list-style-image: url("../images/dot.gif");
+			li{
+				margin-bottom: 16px;
+			}
+		}
+		
 	}
 }
 .one-solution{
