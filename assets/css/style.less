@@ -547,6 +547,130 @@ p{
 	}
 }
 
+.pagination{
+	margin: 10px auto;
+}
+.login{
+	height: 300px;
+	background: white url("../images/login-bg.jpg") 0 bottom no-repeat;
+	background-size: 100%;
+	.login-form{
+		padding: 0 10px;
+		.col-sm-9,.col-sm-5,.col-sm-4{
+			padding-left: 0;
+		}
+		.control-label{
+			padding-top: 9px;
+		}
+		.btn{
+			width: 80px;
+			margin-right: 10px;
+		}
+	}
+}
+
+.people{
+	padding: 20px;
+	.person{
+		float: left;
+		position: relative;
+		width: 299px;
+		padding: 20px;
+		margin: 10px;
+		border: @edge-color solid 1px;
+		.avatar{
+			width: 60px;
+			height: 60px;
+			border: solid 1px #ccc;
+			border-radius: 30px;
+			overflow: hidden;
+			img{
+				width: 100%;
+			}
+		}
+		h3{
+			position: absolute;
+			top: 20px;
+			left: 110px;
+			color: @primary-color;
+			font-size: 16px;
+			display: block;
+			width: 160px;
+		}
+		p{
+			text-indent: 0;
+			line-height: 160%;
+			top: 45px;
+			left: 110px;
+			width: 160px;
+			display: block;
+			position: absolute;
+			font-size: 12px;
+		}
+	}
+}
+
+.intro{
+	padding: 20px 60px 60px 60px;
+	.graph-title{
+		width: 100%;
+		text-align: center;
+		height: 30px;
+		color: @primary-color;
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 24px;
+		margin: 40px 0;
+		background: url("../images/graph-bg.jpg") center center no-repeat;
+	}
+	p{
+		line-height: 200%;
+	}
+	h4{
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 18px;
+		margin: 20px 0 10px 0;
+	}
+	ul{
+		list-style-image: url("../images/dot.gif");
+		padding-left: 10px;
+		li{
+			position: relative;
+			line-height: 200%;
+			height: auto;
+			display: block;
+			.rule-num{
+				padding-left: 10px;
+				background: url("../images/dot.gif") 0 center no-repeat;
+				float: left;
+				width: 80px;
+				display: inline-block;
+			}
+			.rule-detail{
+				display: inline-block;
+				width: 780px;
+			}
+		}
+	}
+	.member-logo{
+		width: 199px;
+		margin: 10px;
+		border: solid 1px #ccc;
+		min-height: 60px;
+		padding: 3px;
+		color: #ccc;
+		font-size: 16px;
+		text-align: center;
+		float: left;
+		overflow: hidden;
+		img{
+			width: 100%;
+		}
+	}
+
+}
+
 .list-items{
 	.list-picnews{
 		border: solid 1px #999;
