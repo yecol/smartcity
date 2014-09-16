@@ -7,10 +7,12 @@ $(document).ready(function(){
         dots: true
     });
 
-    $('.bxslider').bxSlider({
-        pagerCustom: '#bx-pager'
-    });
-    
+    if ($('.bxslider').length!=0) {
+       $('.bxslider').bxSlider({
+            pagerCustom: '#bx-pager'
+        }); 
+    };
+
     var unslider = $('.carousel').unslider();
     
     $('.unslider-arrow').click(function(e) {

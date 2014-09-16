@@ -190,37 +190,37 @@ p{
 
 #header{
 	height: 120px;
-	background: #99ccff url("../images/cloud.png") 0 0 no-repeat;
-	-webkit-animation: animate-cloud 20s linear infinite;
-       -moz-animation: animate-cloud 20s linear infinite;
-        -ms-animation: animate-cloud 20s linear infinite;
-         -o-animation: animate-cloud 20s linear infinite;
-            animation: animate-cloud 20s linear infinite;
+	background: #99ccff url("../images/cloud.png") 0 0 repeat;
+	-webkit-animation: animate-cloud 200s linear infinite;
+       -moz-animation: animate-cloud 200s linear infinite;
+        -ms-animation: animate-cloud 200s linear infinite;
+         -o-animation: animate-cloud 200s linear infinite;
+            animation: animate-cloud 200s linear infinite;
 
     @-webkit-keyframes 
     animate-cloud{
-    	from{background-position:600px 100%}
-    	to{background-position:0 100%}
+    	from{background-position:0 100%}
+    	to{background-position:-9999px 100%}
     	}
     @-moz-keyframes 
     animate-cloud{
-    	from{background-position:600px 100%}
-    	to{background-position:0 100%}
+    	from{background-position:0 100%}
+    	to{background-position:-9999px 100%}
     	}
     @-ms-keyframes 
     animate-cloud{
-    	from{background-position:600px 100%}
-    	to{background-position:0 100%}
+    	from{background-position:0 100%}
+    	to{background-position:-9999px 100%}
     	}
     @-o-keyframes 
     animate-cloud{
-    	from{background-position:600px 100%}
-    	to{background-position:0 100%}
+    	from{background-position:0 100%}
+    	to{background-position:-9999px 100%}
     	}
     .animate-cloud-key 
-    from{background-position:600px 100%}
+    from{background-position:0 100%}
     .animate-cloud-key 
-    to{background-position:0 100%}
+    to{background-position:-9999px 100%}
 
 	.container-1k{
 		height: 120px;
@@ -260,7 +260,8 @@ p{
 		height: 30px;
 		background-color: white;
 		border-bottom: @edge-color solid 1px;
-		margin: 0 -10px;
+		// margin: 0 -10px;
+		width: auto;
 		-webkit-box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5);
            -moz-box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5);
                 box-shadow: 0 10px 10px -10px rgba(0,0,0,0.5);
@@ -573,7 +574,18 @@ p{
 }
 
 .people{
-	padding: 20px;
+	padding: 10px 20px 20px 20px;
+
+	.cat{
+		float: left;;
+		text-align: center;
+		width: 100%;
+		padding: 20px;
+		font-size: 18px;
+		margin-top: 20px;
+		color: @primary-color;
+		background: url("../images/graph-bg.jpg") center center no-repeat;
+	}
 	.person{
 		float: left;
 		position: relative;

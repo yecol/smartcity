@@ -5,7 +5,31 @@
 		[
 			[
 				"mar",
-				"margin"
+				"margin-top"
+			],
+			[
+				"bxs",
+				"bxslider"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"border",
+				"border"
 			],
 			[
 				"fo",
@@ -48,10 +72,6 @@
 				"border-bottom"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"col",
 				"col-2-3"
 			],
@@ -88,10 +108,6 @@
 				"inside"
 			],
 			[
-				"list",
-				"list-style-position"
-			],
-			[
 				"backg",
 				"background"
 			],
@@ -126,10 +142,6 @@
 			[
 				"edge",
 				"edge-color"
-			],
-			[
-				"border",
-				"border-bottom"
 			],
 			[
 				"width",
@@ -502,36 +514,16 @@
 			[
 				"s",
 				"smarty"
-			],
-			[
-				"mx",
-				"max-height"
-			],
-			[
-				"rea",
-				"ready	$(document).ready"
-			],
-			[
-				"lin",
-				"link"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "company.html",
+			"file": "people.html",
 			"settings":
 			{
-				"buffer_size": 14509,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 48036,
+				"buffer_size": 13080,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +531,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 13976,
+				"buffer_size": 15636,
 				"line_ending": "Unix"
 			}
 		}
@@ -684,12 +676,15 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/smartcity/solution.html",
+		"/Users/Yecol/Workspace/git-repo/smartcity/assets/js/common.js",
+		"/Users/Yecol/Workspace/git-repo/smartcity/assets/css/jquery.bxslider.css",
+		"/Users/Yecol/Workspace/git-repo/smartcity/index.html",
+		"/Users/Yecol/Workspace/git-repo/smartcity/company.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/intro.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/article.html",
-		"/Users/Yecol/Workspace/git-repo/smartcity/index.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/list.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/people.html",
-		"/Users/Yecol/Workspace/git-repo/smartcity/assets/js/common.js",
 		"/Users/Yecol/Workspace/git-repo/smartcity/assets/css/style.less",
 		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0-dist/js/bootstrap.min.js",
@@ -767,6 +762,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav",
+			"bx-pager",
 			"c-intro",
 			"=\"#\"></",
 			"热点新闻",
@@ -891,18 +888,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "company.html",
+					"file": "people.html",
 					"settings":
 					{
-						"buffer_size": 14509,
+						"buffer_size": 13080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8557,
-								8557
+								4308,
+								4308
 							]
 						],
 						"settings":
@@ -915,38 +912,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1908.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 48036,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24824,
-								22829
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 9718.0,
+						"translation.y": 2328.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -958,19 +924,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 13976,
+						"buffer_size": 15636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12226,
-								12226
+								4621,
+								4621
 							]
 						],
 						"settings":
@@ -982,7 +948,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12476.0,
+						"translation.y": 4159.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1018,7 +984,7 @@
 		"cols":
 		[
 			0.0,
-			0.59419087137,
+			0.356810814316,
 			1.0
 		],
 		"rows":
