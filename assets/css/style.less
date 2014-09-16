@@ -5,6 +5,7 @@
 @full-width:1000px;
 @frame-margin:5px;
 @frame-padding:10px;
+@light-blue:#f6fafc;
 
 body{
 	font-family: "Microsoft YaHei";
@@ -127,9 +128,11 @@ p{
 }
 
 .sidebar{
-	right: 10px;
-	top: 0;
-	position: absolute;
+	float: left;
+}
+.left-main{
+	float: left;
+	width: (@full-width - @width-1-3 - @frame-margin * 2);
 }
 
 .bread{
@@ -720,6 +723,114 @@ p{
 			}
 		}
 		
+	}
+}
+
+.foot-nav{
+	padding: 15px 30px;
+	span{
+		font-weight: bold;
+		display: inline-block;
+		width: 10%;
+		height: 20px;
+		line-height: 20px;
+	}
+	a{
+		height: 20px;
+		width: 90%;
+		line-height: 20px;
+		display: inline-block;
+	}
+}
+
+.company-intro{
+	padding: 30px;
+	.cintro-main{
+		float: left;
+		width: 65%;
+		h3{
+			line-height: 140%;
+			font-size: 22px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		.meta{
+			margin-bottom: 20px;
+			padding-bottom: 8px;
+			color: #999;
+			border-bottom: solid 1px @edge-color;
+		}
+		p{
+			line-height: 160%;
+			margin-bottom: 20px;
+		}
+	}
+	.company-logo{
+		width: 33%;
+		margin: 0 0 10px 2%;
+		margin-left: 2%;
+		background: transparent;
+		border: 0;
+	}
+	.cintro-side{
+		float: left;
+		background-color: @light-blue;
+		border:solid 1px @edge-color;
+		padding: 20px 20px;
+		width: 33%;
+		margin-left: 2%;
+		color: #999;
+		ul{
+			li{
+				margin-bottom: 5px;
+				width: 100%;
+				position: relative;
+				height: auto;
+				line-height: 130%;
+				display: inline-block;
+				.rule-num{
+					float: left;
+					width: 30%;
+					display: inline-block;
+				}
+				.rule-detail{
+					line-height: 130%;
+					display: inline-block;
+					width: 70%;
+				}
+			}
+		}
+	}
+	
+}
+
+.article{
+	padding: 30px;
+	h3{
+		line-height: 140%;
+		font-size: 22px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.meta{
+		margin-bottom: 20px;
+		padding-bottom: 8px;
+		color: #999;
+		border-bottom: solid 1px @edge-color;
+	}
+	p{
+		line-height: 160%;
+		margin-bottom: 20px;
+		img{
+			max-width: 100%;
+			margin: 0 auto;
+			padding: 3px;
+			border: solid 1px #999;
+		}
+		&.center-p{
+			text-align: center;
+			text-indent: 0;
+		}
 	}
 }
 .one-solution{
