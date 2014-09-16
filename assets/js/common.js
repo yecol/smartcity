@@ -6,6 +6,11 @@ $(document).ready(function(){
     $('.carousel').unslider({
         dots: true
     });
+
+    $('.bxslider').bxSlider({
+        pagerCustom: '#bx-pager'
+    });
+    
     var unslider = $('.carousel').unslider();
     
     $('.unslider-arrow').click(function(e) {

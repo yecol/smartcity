@@ -4,16 +4,64 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"col",
+				"col-2-3"
+			],
+			[
 				"f",
 				"float"
 			],
 			[
 				"tex",
 				"text-indent"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"l",
@@ -28,20 +76,8 @@
 				"text-align"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"padding",
 				"padding"
-			],
-			[
-				"bor",
-				"border"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"lis",
@@ -68,10 +104,6 @@
 				"text-align"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
 				"b",
 				"background"
 			],
@@ -82,10 +114,6 @@
 			[
 				"frame",
 				"frame"
-			],
-			[
-				"bo",
-				"bottom"
 			],
 			[
 				"w",
@@ -126,14 +154,6 @@
 			[
 				"tab",
 				"table"
-			],
-			[
-				"pad",
-				"padding-left"
-			],
-			[
-				"max",
-				"max-height"
 			],
 			[
 				"bod",
@@ -230,10 +250,6 @@
 			[
 				"padding-",
 				"padding-top"
-			],
-			[
-				"col",
-				"color"
 			],
 			[
 				"colr",
@@ -420,10 +436,6 @@
 				"paragraph"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"to",
 				"toggle	.toggle() (show/hide)"
 			],
@@ -442,10 +454,6 @@
 			[
 				"margin",
 				"margin-right"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"summa",
@@ -512,18 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "people.html",
+			"file": "company.html",
 			"settings":
 			{
-				"buffer_size": 13088,
+				"buffer_size": 14509,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "list.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15646,
+				"buffer_size": 48036,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +539,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 12074,
+				"buffer_size": 13976,
 				"line_ending": "Unix"
 			}
 		}
@@ -659,7 +667,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 568.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -676,10 +684,12 @@
 	},
 	"file_history":
 	[
-		"/Users/Yecol/Workspace/git-repo/smartcity/assets/js/common.js",
 		"/Users/Yecol/Workspace/git-repo/smartcity/intro.html",
-		"/Users/Yecol/Workspace/git-repo/smartcity/list.html",
+		"/Users/Yecol/Workspace/git-repo/smartcity/article.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/index.html",
+		"/Users/Yecol/Workspace/git-repo/smartcity/list.html",
+		"/Users/Yecol/Workspace/git-repo/smartcity/people.html",
+		"/Users/Yecol/Workspace/git-repo/smartcity/assets/js/common.js",
 		"/Users/Yecol/Workspace/git-repo/smartcity/assets/css/style.less",
 		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0-dist/js/bootstrap.min.js",
@@ -757,6 +767,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"c-intro",
+			"=\"#\"></",
+			"热点新闻",
+			"ad",
 			"h3",
 			"shadow",
 			"solution",
@@ -877,18 +891,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "people.html",
+					"file": "company.html",
 					"settings":
 					{
-						"buffer_size": 13088,
+						"buffer_size": 14509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9733,
-								9733
+								8557,
+								8557
 							]
 						],
 						"settings":
@@ -901,25 +915,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3883.0,
+						"translation.y": 1908.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "list.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 15646,
+						"buffer_size": 48036,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4556,
-								4080
+								24824,
+								22829
 							]
 						],
 						"settings":
@@ -932,7 +946,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1575.0,
+						"translation.y": 9718.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -948,15 +962,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 12074,
+						"buffer_size": 13976,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9461,
-								9461
+								12226,
+								12226
 							]
 						],
 						"settings":
@@ -968,7 +982,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9599.0,
+						"translation.y": 12476.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1004,7 +1018,7 @@
 		"cols":
 		[
 			0.0,
-			0.493056275934,
+			0.59419087137,
 			1.0
 		],
 		"rows":

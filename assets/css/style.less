@@ -743,6 +743,111 @@ p{
 	}
 }
 
+.company-solution{
+	padding: 20px;
+	.one-solution{
+		width: 20%;
+		padding: 10px;
+	}
+}
+
+.solution-sum{
+	padding: 20px;
+	.s-block{
+		width: 33%;
+		display: block;
+		float: left;
+
+	}
+	.s-slider{
+		.bx-wrapper{
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+			height: 250px;
+			margin-bottom: 10px;
+			border: 1px solid #999;
+			img{
+				// width: 100%;
+			}
+		}
+		.bx-controls{
+			display: none;
+		}
+		#bx-pager{
+			a{
+				display: table-cell;
+				width: 33%;
+				padding: 0 3px;
+				height: 60px;
+				overflow: hidden;
+				img{
+					border: solid 1px #999;
+					width: 100%;
+				}
+			}
+		}
+	}
+	.s-main{
+		padding:0 20px;
+		width: 37%;
+		h3{
+			line-height: 140%;
+			font-size: 22px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		.meta{
+			margin-bottom: 20px;
+			padding-bottom: 8px;
+			color: #999;
+			border-bottom: solid 1px @edge-color;
+		}
+		.buy{
+			margin-top: 20px;
+			padding: 20px 20px 0 20px;
+			color: #999;
+			border-top: solid 1px @edge-color;
+		
+		}
+		ul{
+			list-style: none;
+			line-height: 220%;
+			li:before{
+				content:"> ";
+			}
+		}
+	}
+	.s-side{
+		width: 30%;
+		background-color: @light-blue;
+		border:solid 1px @edge-color;
+		padding: 20px 20px 0 20px;
+		color: #999;
+		h4{
+			color: @primary-color;
+			font-size: 16px;
+			line-height: 16px;
+		}
+		ul{
+			margin: 20px 10px;
+			list-style: none;
+			line-height: 160%;
+			color: #666;
+			li:before{
+				content:"> ";
+			}
+		}
+		p{
+			line-height: 160%;
+		}
+	}
+}
+
+.solution-intro{
+	padding: 20px;
+}
+
 .company-intro{
 	padding: 30px;
 	.cintro-main{
@@ -776,7 +881,7 @@ p{
 		float: left;
 		background-color: @light-blue;
 		border:solid 1px @edge-color;
-		padding: 20px 20px;
+		padding: 20px 20px 0 20px;
 		width: 33%;
 		margin-left: 2%;
 		color: #999;
@@ -797,6 +902,11 @@ p{
 					line-height: 130%;
 					display: inline-block;
 					width: 70%;
+					&.tel{
+						font-size: 20px;
+						color: @primary-color;
+						font-family: Georgia;
+					}
 				}
 			}
 		}
