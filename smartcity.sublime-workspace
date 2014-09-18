@@ -534,12 +534,20 @@
 				"buffer_size": 15636,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 519,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 67.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -659,7 +667,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -676,6 +684,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/smartcity/assets/css/style.css",
+		"/Users/Yecol/Workspace/git-repo/smartcity/smartcity.sublime-project",
+		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/less2css.sublime-settings",
+		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/LESS/LESS.sublime-settings",
 		"/Users/Yecol/Workspace/git-repo/smartcity/solution.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/assets/js/common.js",
 		"/Users/Yecol/Workspace/git-repo/smartcity/assets/css/jquery.bxslider.css",
@@ -912,7 +925,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2328.0,
+						"translation.y": 2889.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -920,7 +933,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -935,8 +948,8 @@
 						"selection":
 						[
 							[
-								4621,
-								4621
+								244,
+								244
 							]
 						],
 						"settings":
@@ -948,7 +961,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4159.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								388
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
