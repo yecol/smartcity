@@ -1,12 +1,4 @@
 @import "reset.css";
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  *behavior: url(boxsizing.htc);
-}
 body {
   font-family: "Microsoft YaHei";
   font-size: 14px;
@@ -404,6 +396,8 @@ p {
 .carousel {
   position: relative;
   overflow: hidden;
+  display: inline-block;
+  *display: inline;
 }
 .carousel li {
   position: relative;
