@@ -48,7 +48,6 @@ $(document).ready(function(){
         $("ul[class='menu-2 active']").css('left', '-9999px');
     });
     $("section#nav").mouseleave(function(){
-        console.log("out-1");
         $('.menu-2').css({left: '-9999px'});
         $("ul[class='menu-2 active']").css('left', $fixedLeft);
     })

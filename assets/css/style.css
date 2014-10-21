@@ -157,6 +157,7 @@ p {
 .bread ol li {
   padding: 10px;
   display: inline-block;
+  *display: inline;
   padding-right: 30px;
   font-size: 12px;
   background: url("../images/arrow.png") right 0 no-repeat;
@@ -288,6 +289,7 @@ p {
 }
 #nav ul li {
   display: inline-block;
+  *display: inline;
 }
 #nav #nav-1 {
   height: 40px;
@@ -422,6 +424,7 @@ p {
 }
 .carousel .dots li {
   display: inline-block;
+  *display: inline;
   width: 10px;
   height: 10px;
   margin: 0 4px;
@@ -688,9 +691,11 @@ p {
   float: left;
   width: 80px;
   display: inline-block;
+  *display: inline;
 }
 .intro ul li .rule-detail {
   display: inline-block;
+  *display: inline;
   width: 780px;
 }
 .intro .member-logo {
@@ -767,6 +772,7 @@ p {
 .foot-nav span {
   font-weight: bold;
   display: inline-block;
+  *display: inline;
   width: 10%;
   height: 20px;
   line-height: 20px;
@@ -776,6 +782,7 @@ p {
   width: 90%;
   line-height: 20px;
   display: inline-block;
+  *display: inline;
 }
 .company-solution {
   padding: 20px;
@@ -916,15 +923,18 @@ p {
   height: auto;
   line-height: 130%;
   display: inline-block;
+  *display: inline;
 }
 .company-intro .cintro-side ul li .rule-num {
   float: left;
   width: 30%;
   display: inline-block;
+  *display: inline;
 }
 .company-intro .cintro-side ul li .rule-detail {
   line-height: 130%;
   display: inline-block;
+  *display: inline;
   width: 70%;
 }
 .company-intro .cintro-side ul li .rule-detail.tel {
