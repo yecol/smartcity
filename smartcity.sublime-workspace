@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"inlin",
+				"inline"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
 				"mar",
 				"margin-top"
 			],
@@ -102,10 +110,6 @@
 			[
 				"lis",
 				"list-style-image"
-			],
-			[
-				"in",
-				"inside"
 			],
 			[
 				"backg",
@@ -510,20 +514,16 @@
 			[
 				"y-",
 				"y-green-1"
-			],
-			[
-				"s",
-				"smarty"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "people.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13080,
+				"buffer_size": 48413,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 15636,
+				"buffer_size": 16079,
 				"line_ending": "Unix"
 			}
 		},
@@ -684,20 +684,20 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/smartcity/index.html",
+		"/Users/Yecol/Workspace/git-repo/smartcity/people.html",
+		"/Users/Yecol/Workspace/git-repo/smartcity/assets/js/common.js",
 		"/Users/Yecol/Workspace/git-repo/smartcity/assets/css/style.css",
 		"/Users/Yecol/Workspace/git-repo/smartcity/smartcity.sublime-project",
 		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
 		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/less2css.sublime-settings",
 		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/LESS/LESS.sublime-settings",
 		"/Users/Yecol/Workspace/git-repo/smartcity/solution.html",
-		"/Users/Yecol/Workspace/git-repo/smartcity/assets/js/common.js",
 		"/Users/Yecol/Workspace/git-repo/smartcity/assets/css/jquery.bxslider.css",
-		"/Users/Yecol/Workspace/git-repo/smartcity/index.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/company.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/intro.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/article.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/list.html",
-		"/Users/Yecol/Workspace/git-repo/smartcity/people.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/assets/css/style.less",
 		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0-dist/js/bootstrap.min.js",
@@ -775,6 +775,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"images/pixel.gif",
+			"img src=\"\"",
+			"img src",
+			"cons",
+			"inline-block",
 			"nav",
 			"bx-pager",
 			"c-intro",
@@ -877,6 +882,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"assets/images/pixel.gif",
 			"user.png",
 			"\"",
 			"large",
@@ -901,18 +907,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "people.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 13080,
+						"buffer_size": 48413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4308,
-								4308
+								387,
+								387
 							]
 						],
 						"settings":
@@ -925,7 +931,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2889.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -933,7 +939,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -941,15 +947,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 15636,
+						"buffer_size": 16079,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								244,
-								244
+								338,
+								347
 							]
 						],
 						"settings":
@@ -1028,7 +1034,7 @@
 		"cols":
 		[
 			0.0,
-			0.356810814316,
+			0.698032287345,
 			1.0
 		],
 		"rows":
