@@ -1,4 +1,4 @@
-var offsets = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -60];
+var offsets = [0, 0, 0, 0, 0, 0, 0, -140];
 
 $(document).ready(function(){
 

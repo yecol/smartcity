@@ -40,6 +40,7 @@ p {
   background-color: white;
   float: left;
   width: 100%;
+  overflow: hidden;
 }
 .frame .frame-header {
   position: relative;
@@ -88,6 +89,7 @@ p {
   background-color: white;
   float: left;
   width: 100%;
+  overflow: hidden;
   width: 990px;
 }
 .subtitle .frame-header {
@@ -186,7 +188,7 @@ p {
   width: 100%;
   background-color: #efefef;
   overflow: hidden;
-  padding: 3px;
+  padding: 0;
   position: relative;
   height: 60px;
 }
@@ -379,8 +381,9 @@ p {
   height: 100px;
 }
 #footer #footer-siteinfo {
-  height: 60px;
+  height: 70px;
   background-color: #333333;
+  line-height: 20px;
 }
 #footer #footer-siteinfo .container-1k {
   font-size: 12px;
