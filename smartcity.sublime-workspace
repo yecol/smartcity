@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 48413,
+				"buffer_size": 50203,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 16079,
+				"buffer_size": 16117,
 				"line_ending": "Unix"
 			}
 		},
@@ -540,6 +540,14 @@
 			"settings":
 			{
 				"buffer_size": 519,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/common.js",
+			"settings":
+			{
+				"buffer_size": 1584,
 				"line_ending": "Unix"
 			}
 		}
@@ -684,6 +692,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/exp-armining/Python/sample/like.dat",
+		"/Users/Yecol/Workspace/git-repo/exp-armining/Python/sample/like-patterns-4.dat",
 		"/Users/Yecol/Workspace/git-repo/smartcity/index.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/people.html",
 		"/Users/Yecol/Workspace/git-repo/smartcity/assets/js/common.js",
@@ -775,6 +785,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".frame",
 			"images/pixel.gif",
 			"img src=\"\"",
 			"img src",
@@ -910,15 +921,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 48413,
+						"buffer_size": 50203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								387,
-								387
+								5624,
+								5624
 							]
 						],
 						"settings":
@@ -931,7 +942,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2019.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -939,7 +950,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -947,15 +958,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 16079,
+						"buffer_size": 16117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								338,
-								347
+								5981,
+								5981
 							]
 						],
 						"settings":
@@ -967,7 +978,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5378.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -995,6 +1006,37 @@
 							"synced": false,
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/js/common.js",
+					"settings":
+					{
+						"buffer_size": 1584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1034,7 +1076,7 @@
 		"cols":
 		[
 			0.0,
-			0.698032287345,
+			0.629758817428,
 			1.0
 		],
 		"rows":
